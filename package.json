@@ -1,0 +1,20 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "This is first project with node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ecommerce",
+    "Shop"
+  ],
+  "author": "Kaung Myat Hun",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
