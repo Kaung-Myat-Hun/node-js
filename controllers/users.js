@@ -35,7 +35,7 @@ const patch = async (req, res, next) => {
     let retUser = await DB.findById(user._id);
     Helper.fMsg(res, "User Updated", retUser);
   } else {
-    res.json({ msg: "error no user found with that id" });
+    next(new Error("error no user found with that id"));
   }
 };
 
